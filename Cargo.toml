@@ -1,0 +1,22 @@
+[package]
+name = "cipher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chacha20poly1305 = "0.10.1"
+clap = { version = "4.5.8", features = ["derive"] }
+pbkdf2 = "0.12.2"
+rand = "0.8.5"
+rand_chacha = "0.3.1"
+rpassword = "7.3.1"
+rprompt = "2.1.1"
+sha3 = "0.10.8"
+xxhash-rust = { version = "0.8.11", features = ["xxh32"] }
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
