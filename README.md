@@ -5,8 +5,8 @@
 ## How to Install Cipher
 ### From Source
 ```bash
-git clone https://github.com/Adel-Ayoub/cipher.git
-cd cipher
+git clone https://github.com/Adel-Ayoub/Cipher.git
+cd Cipher
 cargo build --release
 ```
 
