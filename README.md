@@ -1,5 +1,5 @@
 # Cipher
-## A modern file encryption tool built with Rust
+## A file encryption tool built with Rust
 > Secure file encryption using ChaCha20-Poly1305 with interactive CLI.
 
 ## How to Install Cipher
